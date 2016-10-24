@@ -62,28 +62,6 @@ public class Regex {
     }
 
 
-public static void main(String[] args) {
 
-	Regex x = new Regex();
-	
-//	System.out.println(x.isMatch("aa", "a"));  //false
-//	
-//	System.out.println(x.isMatch("aa","aa"));  //true
-//	
-//	System.out.println(x.isMatch("aaa","aa")); //false
-//	
-//	System.out.println(x.isMatch("aa", ".*")); //true
-//	
-//	System.out.println(x.isMatch("ab", ".*"));  //true
-//	
-//	System.out.println(x.isMatch("aab", "c*a*b"));  //true
-
-	System.out.println(x.isMatch("ab", ".*c")); //false
-	
-	System.out.println(x.isMatch("aaa", "a*a")); //true
-	
-	System.out.println(x.isMatch("aaa", "aaaa")); //false
-
-}
 
 }
